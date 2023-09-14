@@ -14,6 +14,7 @@ try:
         print("Ошибка! Некорректное число")
     else:
         res = nam // 100 + (nam // 10) % 10 + nam % 10
+        # print(res)
 except ValueError:
     print("Ошибка! Введено не число")
 
